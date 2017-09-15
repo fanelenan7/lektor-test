@@ -34,8 +34,8 @@ change
     loader: ExtractTextPlugin.extract('style-loader', 'css-loader!sass-loader')
  },
 ...
-``` 
-for 
+```
+for
 ```js
  {
     test: /\.scss$/,
