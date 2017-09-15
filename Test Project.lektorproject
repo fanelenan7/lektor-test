@@ -1,0 +1,5 @@
+[project]
+name = Test Project
+
+[packages]
+lektor-webpack-support = 0.3

@@ -1,0 +1,44 @@
+@import './_colors.scss';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 25px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(13deg, rebeccapurple 0%, lightseagreen 100%) no-repeat;
+    color: $main-text;
+}
+
+a {
+    color: $main-link;
+}
+
+a:hover {
+    color: gainsboro;
+}
+
+header, footer, div.page {
+    width: 760px;
+    margin: 0 auto;
+    // background: #daeef3;
+    padding: 20px 30px;
+}
+
+header h1 {
+    color: honeydew;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
