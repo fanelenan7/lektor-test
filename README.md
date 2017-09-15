@@ -1,7 +1,8 @@
 Once you install Lektor and want to add Webpack, follow the instructions here: https://github.com/lektor/lektor-webpack-support
 
 And then make following changes:
-###webpack.config.js
+
+### webpack.config.js
 
 **modules**
 
@@ -45,7 +46,8 @@ remove
 ```js
 new webpack.optimize.DedupePlugin()
 ```
-###layout.html
+
+### layout.html
 link stylesheet with
 ```html
 <link rel="stylesheet" href="{{ '/static/gen/styles.css'|url }}">
